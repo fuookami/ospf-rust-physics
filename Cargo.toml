@@ -7,6 +7,9 @@ description = "A physics utils for ospf-rust."
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+concat-idents = "1.0"
+ospf_rust_meta_programming = { git = "https://github.com/fuookami/ospf-rust-meta-programming.git" }
+# ospf_rust_math = { git = "https://github.com/fuookami/ospf-rust-math.git" }
 
 [profile.dev]
 opt-level = 0
